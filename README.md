@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# React Popcorn: Movie Rating and Watchlist Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can see web app here: [Live Demo](https://npopcoorn.netlify.app/) 
+###!IMPORTANT - Due to the api bugs, this project might not work fine. You can check wanted version on this link: [Live Demo](https://usepopcorn.netlify.app/)
 
-## Available Scripts
+## Project Description
+React Popcorn is a modern movie rating and watchlist application built to provide users with a seamless experience in discovering, rating, and organizing their favorite movies. With a user-friendly interface and dynamic features, the application showcases practical usage of React for building interactive applications.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
+- **Search Movies**: Search for movies using an integrated API.
+- **Add to Watchlist**: Save movies to a personalized watchlist.
+- **Rate Movies**: Rate and review movies for future reference.
+- **Responsive Design**: Optimized for use across all devices.
+- **Dynamic Updates**: Reflects real-time changes in watchlist and ratings.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+- **React**: Core framework for building the user interface.
+- **CSS3**: For styling and responsive layouts.
+- **TMDB API**: For fetching movie data.
+- **Netlify**: For hosting and deployment.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup Instructions
+To run this project locally, follow these steps:
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/AndNijaz/React-Popcorn.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd React-Popcorn
+   ```
 
-### `npm run eject`
+3. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Open `http://localhost:3000` in your browser to view the application.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
+The application is designed for:
+- **Movie Enthusiasts**: Discovering and organizing movies.
+- **Casual Users**: Maintaining a simple watchlist and rating system.
+- **Developers**: Exploring a React-based project structure.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Search Movies
+![Search Movies](img/dashboard.png)
 
-### Analyzing the Bundle Size
+### Watchlist
+![Watchlist](img/liked-movies.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> *Screenshots are stored in the `/img` directory.*
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Project Status
+This project is currently **complete**. Future updates may include:
+- Adding a user authentication system for saving personalized watchlists.
+- Expanding features to include TV shows and trending categories.
+- Integrating social sharing options for watchlists and reviews.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Acknowledgements
+This project is inspired by a passion for movies and a desire to explore React's capabilities in creating interactive web applications. Special thanks to the contributors and users for their feedback and support.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the [MIT License](LICENSE).
