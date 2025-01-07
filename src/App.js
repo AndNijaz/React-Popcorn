@@ -5,7 +5,7 @@ import { useMovies } from "./useMovies";
 import { useLocalStorageState } from "./useLocalStorageState";
 import { useKeyDown } from "./useKeyDown";
 
-const KEY = `ebc771da`;
+const KEY = process.env.REACT_APP_API_URL;
 
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
