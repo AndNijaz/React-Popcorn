@@ -1,7 +1,8 @@
 # React Popcorn: Movie Rating and Watchlist Application
 
 You can see web app here: [Live Demo](https://npopcoorn.netlify.app/) 
-###!IMPORTANT - Due to the api bugs, this project might not work fine. You can check wanted version on this link: [Live Demo](https://usepopcorn.netlify.app/)
+
+## IMPORTANT - Due to the api bugs, this project might not work fine. You can check wanted version on this link: [Live Demo](https://usepopcorn.netlify.app/)
 
 ## Project Description
 React Popcorn is a modern movie rating and watchlist application built to provide users with a seamless experience in discovering, rating, and organizing their favorite movies. With a user-friendly interface and dynamic features, the application showcases practical usage of React for building interactive applications.
